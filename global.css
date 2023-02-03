@@ -2613,11 +2613,17 @@ table {
   display: inline-block;
   margin-right: 7px;
 }
+.platform-board__list-tit--center {
+  text-align: center !important;
+}
 @media (max-width: 1025px) {
   .platform-board__list-tit {
     text-align: left;
     width: 100%;
   }
+}
+.platform-board__center {
+  justify-content: center;
 }
 .platform-board__list-txt {
   text-align: left;
@@ -2784,6 +2790,38 @@ table {
 }
 .platform-board__tab-list li + li {
   margin-left: 5px;
+}
+.platform-board__pdf-box {
+  text-align: center;
+  width: 100%;
+}
+.platform-board__pdf {
+  display: block;
+  margin-bottom: 50px;
+}
+.platform-board__pdf-date {
+  width: 50%;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  padding: 0 20px;
+  margin: 0 auto 50px auto;
+}
+.platform-board__pdf-month {
+  display: inline-block;
+  margin-left: 100px;
+}
+.platform-board__pdf-daily {
+  display: inline-block;
+  margin-left: 100px;
+}
+.platform-board__pdf-sign {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+.platform-board__pdf-stamp {
+  margin-left: 200px;
 }
 
 .platform-paging {
