@@ -24,3 +24,51 @@ static {
 		IMAGE_FILE_EXTS = StringUtil.deleteWhitespace(
 		Config.getString("system-config.imageFileExts", "bmp,gif,jpe,jpg,jpeg,jfif,pcx,png,tiff,wbmp")).split(",");
 		}
+
+
+/* ----------------------- LOCATION INFO --------------------- */
+/** 서버 루트 경로 */
+public static final String WEBAPP_ROOT;
+/** 첨부파일 저장위치 */
+public static final String UPLOAD_ROOT;
+/** 정적컨텐츠 저장위치 */
+public static final String RESOURCE_ROOT;
+/*
+ * 별도의 설정이 있는 경우 사용하며, 없는 경우는 서버 기본값으로 설정
+ * 설정파일 : /src/main/resources/config/commons/location-commons-config.xml
+ */
+static {
+        String tmp;
+        String webappRoot = Config.getString("locations-config.webappRoot");
+        if(Validate.isEmpty(webappRoot)) {
+        String webAppRootKey = Config.getString("locations-config.webAppRootKey");
+        String systemRootKey = "openworks4.intra.root";
+        if(SYSTEM_KIND.equals("user")) {
+        systemRootKey = "openworks4.user.root";
+        }
+        tmp = Config.getString(webAppRootKey, systemRootKey);
+        tmp = StringUtil.replace(tmp, File.separator, "/");
+        WEBAPP_ROOT = tmp;
+        } else {
+        tmp = webappRoot;
+        tmp = StringUtil.replace(tmp, File.separator, "/");
+        WEBAPP_ROOT = tmp;
+        }
+
+        String uploadRoot = Config.getString("locations-config.uploadRoot");
+        if(Validate.isEmpty(uploadRoot)) {
+        UPLOAD_ROOT = WEBAPP_ROOT;
+        } else {
+        tmp = uploadRoot;
+        tmp = StringUtil.replace(tmp, File.separator, "/");
+        UPLOAD_ROOT = tmp;
+        }
+
+        String resourceRoot = Config.getString("locations-config.resourceRoot");
+        if(Validate.isEmpty(resourceRoot)) {
+        RESOURCE_ROOT = WEBAPP_ROOT;
+        } else {
+        tmp = resourceRoot;
+        tmp = StringUtil.replace(tmp, File.separator, "/");
+        RESOURCE_ROOT = tmp;
+        }
