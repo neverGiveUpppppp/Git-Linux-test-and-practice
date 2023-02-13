@@ -5,9 +5,7 @@ public static void main(String args[]){
  test.sourcetree();
  Resolve Using 'Mine'
  Resolve Using 'Theirs'
-
- main branch // main branch
-=======
+=
  test branch // test branch
 
 }
