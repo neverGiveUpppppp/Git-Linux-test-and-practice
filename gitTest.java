@@ -6,7 +6,15 @@ public static void main(String args[]){
  Resolve Using 'Mine'
  Resolve Using 'Theirs'
 
+<<<<<<< HEAD
  main branch // main branch
+=======
+ test branch // test branch
+ 
+
+
+
+>>>>>>> test
 
 
 }
