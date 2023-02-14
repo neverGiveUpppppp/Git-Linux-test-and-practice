@@ -1,22 +1,6 @@
 
-/** 시스템 명 */
-/** 시스템 명 */
-/** 시스템 명 */
-/** 시스템 명 */
-/** 시스템 명 */
-/** 시스템 명 */
-/** 시스템 명 */
-/** 시스템 명 */
-/** 시스템 명 */
 
-/** 기관명 명 */
-/** 기관명 명 */
-/** 기관명 명 */
-/** 기관명 명 */
-/** 기관명 명 */
-
-merge conflict resolved
-
+main branch
 
 /** 기관명 명 */
 public static final String ORG_NAME = Config.getString("webapp-config.orgName");
