@@ -1,7 +1,4 @@
 
-vi merge_test second
-by main branch
-by test branch
 
 
 main
