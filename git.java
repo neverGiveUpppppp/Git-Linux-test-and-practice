@@ -3,6 +3,11 @@
 main branch
 test branch
 
+배치프로그램
+대용량데이터, 자동화, 견고성, 안정성/신뢰성, 성능
+
+
+
 /** 기관명 명 */
 public static final String ORG_NAME = Config.getString("webapp-config.orgName");
 /** 시스템 명 */
