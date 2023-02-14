@@ -3,5 +3,9 @@ dummy
 
 discard practice
 
-atfer unstaged, command of discard is "git checkout -- filename"
+after unstaged, command of discard is "git checkout -- filename"
+
+
+2nd
+
 
