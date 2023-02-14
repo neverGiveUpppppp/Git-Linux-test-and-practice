@@ -1,3 +1,12 @@
+
+
+
+/** 기관명 명 */
+/** 기관명 명 */
+/** 기관명 명 */
+/** 기관명 명 */
+/** 기관명 명 */
+
 /** 기관명 명 */
 public static final String ORG_NAME = Config.getString("webapp-config.orgName");
 /** 시스템 명 */
