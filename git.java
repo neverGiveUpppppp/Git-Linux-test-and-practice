@@ -34,10 +34,8 @@ Session Layer
  - 대화 구성 및 동기 제어, 데이터 교환 관리 기능
 
 
-qwerqwer
 
-asdfasdfasdf
-asdfasdfasdf
+merge --squash test go
 
 
 /** 기관명 명 */
