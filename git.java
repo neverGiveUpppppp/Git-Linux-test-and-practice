@@ -29,7 +29,6 @@ Netowrk Layer
 
 
 
-revert conflict test
 
 
 /** 기관명 명 */
