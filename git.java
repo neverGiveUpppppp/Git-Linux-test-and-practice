@@ -16,6 +16,8 @@ Internet : ICMP, ARP, RARP, IP
 Network Interface(Nework access)
 
 
+revert conflict test
+
 
 /** 기관명 명 */
 public static final String ORG_NAME = Config.getString("webapp-config.orgName");
