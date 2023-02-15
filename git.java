@@ -2,7 +2,13 @@
 배치프로그램
 대용량데이터, 자동화, 견고성, 안정성/신뢰성, 성능
 
-TCP/IP 4 Layer
+[OSI 7 layer vs TCP/IP]
+
+1-3 : 하위계층
+4-7 : 상위계층
+
+
+[TCP/IP 4 Layer]
 
 Application : FTP,DNS, HTTP, telnet, SMTP
 Transport : TCP, UDP
@@ -31,15 +37,9 @@ Session Layer
 conflict happend
 conflict happend
 conflict happend
-conflict happend
-conflict happend
-
-1111
-2222
-3333
-4444
 
 
+merge --squash test go
 
 
 
