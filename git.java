@@ -15,6 +15,15 @@ Transport : TCP, UDP
 Internet : ICMP, ARP, RARP, IP
 Network Interface(Nework access)
 
+Transport layer
+ - 데이터 전송서비스 제공 
+ - 종단시스템(End-to-End) 간 전송 연결설정, 데이터 전송, 연결 해제 기능
+ - 주소 설정, 분할 및 재조립, 오류 제어, 흐름 제어 수행
+
+
+
+
+
 
 revert conflict test
 
