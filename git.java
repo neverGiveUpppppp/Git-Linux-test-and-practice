@@ -36,11 +36,10 @@ Session Layer
 
 conflict happend
 conflict happend
-conflict happend
 
 
-merge --squash test go
-
+merge --squash test branch @@@@
+ 
 
 
 /** 기관명 명 */
