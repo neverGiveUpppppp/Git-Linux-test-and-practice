@@ -2,6 +2,12 @@
 배치프로그램
 대용량데이터, 자동화, 견고성, 안정성/신뢰성, 성능
 
+TCP/IP 4 Layer
+
+Application : FTP,DNS, HTTP, telnet, SMTP
+Transport : TCP, UDP
+Internet : ICMP, ARP, RARP, IP
+Network Interface(Nework access)
 
 
 /** 기관명 명 */
