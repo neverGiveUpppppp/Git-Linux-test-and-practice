@@ -1,25 +1,23 @@
 
 배치프로그램
-대용량데이터, 자동화, 견고성, 안정성/신뢰성, 성능
+ - 대용량데이터, 자동화, 견고성, 안정성/신뢰성, 성능
 
-[OSI 7 layer vs TCP/IP]
 
-1-3 : 하위계층
-4-7 : 상위계층
+======================================
 
 
 [TCP/IP 4 Layer]
+ - Application : FTP,DNS, HTTP, telnet, SMTP
+ - Transport : TCP, UDP
+ - Internet : ICMP, ARP, RARP, IP
+ - Network Interface(Network access)
 
-Application : FTP,DNS, HTTP, telnet, SMTP
-Transport : TCP, UDP
-Internet : ICMP, ARP, RARP, IP
-Network Interface(Nework access)
+=======================================	
 
 Transport layer
  - 데이터 전송서비스 제공 
  - 종단시스템(End-to-End) 간 전송 연결설정, 데이터 전송, 연결 해제 기능
  - 주소 설정, 분할 및 재조립, 오류 제어, 흐름 제어 수행
-
 
 Netowrk Layer
  - 개방 시스템들 간의 네트워크 연결 관리, 데이터 교환 및 중계 기능
@@ -27,17 +25,16 @@ Netowrk Layer
  - 경로설정(Routing), 데이터 ㄱ환 및 중계, 트래픽 제어, 패킷 정보 전송 수행
 
 
- ==========
+=======================================
 
 Session Layer
  - 송수신 측 간의 관련성 유지, 대화 제어
  - 대화 구성 및 동기 제어, 데이터 교환 관리 기능
 
+====================================== 
 
-conflict happend
 
 
-merge --squash test go
 
 
 
