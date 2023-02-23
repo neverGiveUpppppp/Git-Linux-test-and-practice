@@ -45,7 +45,10 @@ Session Layer
 
 --------------------------------------
 
-revert merge commit conflict resolved
+Jenkins
+빌드자동화 도구
+java 기반 오픈소스형태
+서블릿 컨테이너에서 실행되는 서버 기반 툴
 
 
 
