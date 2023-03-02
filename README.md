@@ -1,10 +1,10 @@
 # git-test-practice
-git test &amp; practice repository <br>
+git test &amp; practice repository <br><br><br>
 
 
 
 ## [Git study external memory storage]   
-https://positive1.notion.site/VSC-Git-403b37665db34a29a9a9d9ab97f33d92 <br>
+https://positive1.notion.site/VSC-Git-403b37665db34a29a9a9d9ab97f33d92 <br><br><br>
 
 
 
