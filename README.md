@@ -32,9 +32,9 @@ git revert HEAD : 바로 직전에 작업한 내용 되돌리기
 git revert --no-commit : revert한 결과를 stage 상태만 유지하고, no commit    
 git revert [commit hash1]..[commit hash2] : 여러 커밋 되돌리기   
 git revert -m [순서번호] [commit hash] : 머지커밋 되돌리기   
-git revert --continue : 충돌 해결 및 런
-git revert --skip : 되돌리지만 이 패치 스킵
-git revert --abort : 되돌리기 취소
+git revert --continue : 충돌 해결 및 런   
+git revert --skip : 되돌리지만 이 패치 스킵  
+git revert --abort : 되돌리기 취소    
 
 
 
