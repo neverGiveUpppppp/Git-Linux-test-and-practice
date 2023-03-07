@@ -37,6 +37,12 @@ git revert --skip : 되돌리지만 이 패치 스킵
 git revert --abort : 되돌리기 취소    
 
 
+git rm [파일명] : 로컬,리모트 파일 삭제         // remote o, local o
+git rm --cached [파일명] : 리모트만 파일 삭제   // remote o, local x
+git rm -n : 삭제될 파일 프리뷰(메세지는 뜨나 실제 삭제는 x)
+git rm --cached -r [디렉토리명] : 디렉토리 전체 삭제
+
+
 
 
 <br><br><br>
