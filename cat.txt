@@ -1,0 +1,8 @@
+cat >filename
+
+terminate : ctrl+d
+[A[A
+[A
+[B
+cat --h
+cat >> filename : 이어쓰기
