@@ -1,0 +1,9 @@
+cat > filename : 파일 생성 및 수
+cat >> filename : 이어쓰기
+
+---------------
+
+cat filename : 읽기 단일 파일
+cat filename1 filename2 : 읽기 복수 파일
+cat [option] [filename]
+cat [option] [filename1] [filename2]
