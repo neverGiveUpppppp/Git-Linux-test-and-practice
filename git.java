@@ -9,10 +9,10 @@
 
 
 [TCP/IP 4 Layer]
- - Application : FTP,DNS, HTTP, telnet, SMTP
- - Transport : TCP, UDP
+ - Application : FTP,DNS, HTTP, telnet, SMTP, SNMP
+ - Transport : TCP, UDP, RTCP
  - Internet : ICMP, ARP, RARP, IP
- - Network Interface(Network access)
+ - Network Interface(Network access) : PPP, 
 
 --------------------------------------
 
