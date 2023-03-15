@@ -43,7 +43,14 @@ git rm -n : 삭제될 파일 프리뷰(메세지는 뜨나 실제 삭제는 x)
 git rm --cached -r [디렉토리명] : 디렉토리 전체 삭제   
 
 
+git reset HEAD : 이전 add 전체 unstage
+git show HEAD^ : HEAD 바로 전 커밋으로 reset
+git reset HEAD 파일명 : 해당 파일을 unstage로
 
+cf. HEAD와 HEAD^ 위치 파악하는 방법
+git log --pretty=oneline -5
+git show HEAD
+git show HEAD^ 
 
 
 <br><br><br>
