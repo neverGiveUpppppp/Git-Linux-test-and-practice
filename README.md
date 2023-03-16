@@ -47,10 +47,10 @@ git reset HEAD : 이전 add 전체 unstage
 git show HEAD^ : HEAD 바로 전 커밋으로 reset
 git reset HEAD 파일명 : 해당 파일을 unstage로
 
-cf. HEAD와 HEAD^ 위치 파악하는 방법
-git log --pretty=oneline -5
-git show HEAD
-git show HEAD^ 
+cf. HEAD와 HEAD^ 위치 파악하는 방법   
+git log --pretty=oneline -5   
+git show HEAD    
+git show HEAD^    
 
 
 <br><br><br>
