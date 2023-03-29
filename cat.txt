@@ -1,10 +1,6 @@
-cat > filename : 파일 생성 및 수
+cat > filename : 파일생성 및 수정
 cat >> filename : 이어쓰기
 
----------------
-
-cat filename : 읽기 단일 파일
-cat filename1 filename2 : 읽기 복수 파일
-cat [option] [filename]
-cat [option] [filename1] [filename2]
-
+cat [기존일] > [새파일] : 새파일 만들기 
+cat [기존파일] >> [다른기존파일] : 다른 기존파일 이어쓰기 
+cat [기존파일1] 기존파일2]... >> [새파] : 기존 파일 여러 개를 하나로 합쳐 새파일 생성 
