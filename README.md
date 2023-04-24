@@ -53,11 +53,12 @@ git show HEAD
 git show HEAD^    
 
 
-$ git clean -f       : 디렉터리를 제외한 파일들만 삭제    
-$ git clean -f -n    : 어떤 파일이 지워질 지 알려줌    
-$ git clean -f -d    : 디렉터리까지 삭제    
-$ git clean -f -d -x : ignore로 무시된 파일까지 삭제    
+git clean -f       : 디렉터리를 제외한 파일들만 삭제    
+git clean -f -n    : 어떤 파일이 지워질 지 알려줌    
+git clean -f -d    : 디렉터리까지 삭제    
+git clean -f -d -x : ignore로 무시된 파일까지 삭제    
 
 
 
 <br><br><br>
+
