@@ -13,6 +13,9 @@ public static void main(String args[]){
 main branch
 
 
+git checkout -- filename : reset of Working Directory
+
+
 
 }
 
