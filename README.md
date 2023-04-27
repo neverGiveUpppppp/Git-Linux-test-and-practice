@@ -59,6 +59,9 @@ git clean -f -d    : 디렉터리까지 삭제
 git clean -f -d -x : ignore로 무시된 파일까지 삭제    
 
 
+git checkout -- : Working Directory 변경사항 취소하기    
+
+
 
 <br><br><br>
 
