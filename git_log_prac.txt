@@ -1,0 +1,11 @@
+git log
+git log --pretty=oneline
+git log -p    // 각 커밋의 diff 결과를 보여줌
+git log --patch -2  // 최근 2개의 결과만 보여줌
+git log --graph --decorate --oneline  // 소스트리처럼 선으로 이어진 커밋내역을 보여줌
+git log branch1 branch2 // 브랜치 간 차이 점 비교
+git log --grep 검색어   // 특정 단어를 검색하여 보여주는 옵션
+git log --stat    // 각 커밋의 통계 정보를 조회
+
+
+
