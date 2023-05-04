@@ -1,0 +1,12 @@
+
+
+git merge
+git merge -e, --edit : editing before commit
+git merge --squash : creating a commit before commit
+git merge --ff : allow fast-forward(default)
+git merge --ff-only : fast-forward  only
+git merge -m, --message : msg
+git merge --stat : show git diff last
+
+
+
