@@ -1,5 +1,4 @@
 
-
 git merge
 git merge -e, --edit : editing before commit
 git merge --squash : creating a commit before commit
@@ -8,5 +7,13 @@ git merge --ff-only : fast-forward  only
 git merge -m, --message : msg
 git merge --stat : show git diff last
 
+
+conflicts
+
+
+
+erase <<<HEAD & >>> test
+and modifying contents you want
+merge conflicts will be resolved
 
 
