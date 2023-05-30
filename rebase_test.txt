@@ -1,4 +1,7 @@
-rebase commit 1
-rebase commit5 
->>>>>>> b616d78 (rebase prac5)
+
+git rebase -i,--interactive [commitId]
+ex)
+git rebase -i 16aersa
+git rebase -i HEAD~5
+
 
