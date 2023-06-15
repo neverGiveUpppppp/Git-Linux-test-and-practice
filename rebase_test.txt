@@ -1,9 +1,8 @@
 
 
-git rebase -i,--interactive [commitId]
+git rebase -i [commitId]
 git rebase -i HEAD~1
 git rebase --interactive [commitId]
-
 
 ex)
 git rebase -i 16aersa
