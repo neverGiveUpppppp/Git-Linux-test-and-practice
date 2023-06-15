@@ -9,3 +9,7 @@ git rebase -i 16aersa
 git rebase -i HEAD~5
 
 
+pick, drop
+
+
+
