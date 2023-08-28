@@ -9,7 +9,7 @@ git merge --stat : show git diff last
 
 
 conflicts
-
+test
 
 
 erase <<<HEAD & >>> test
