@@ -9,6 +9,12 @@ https://positive1.notion.site/VSC-Git-403b37665db34a29a9a9d9ab97f33d92 <br><br><
 
 
 ## git 명령어   
+git cherry-pick [commit hash] : 현재 머물러있는 브랜치에서 해당 commit hash를 체리픽 해오기   
+git cherry-pick -n [커밋 해시]  : 체리픽 해오면서 자동 커밋 금지  
+git cherry-pick --no-commit [커밋 해시]  
+git cherry-pick -e [커밋 해시]  : 체리픽 해오면서 커밋메세지 수정    
+git cherry-pick --edit [커밋 해시]  
+
 git diff   
 git diff HEAD   
 git diff --staged   
@@ -59,9 +65,26 @@ git clean -f -d    : 디렉터리까지 삭제
 git clean -f -d -x : ignore로 무시된 파일까지 삭제    
 
 
-git checkout -- : Working Directory 변경사항 취소하기    
+
 
 
 
 <br><br><br>    
+
+## git 상황 별
+
+#### Working Directory 변경사항 취소하기  
+```java
+git checkout -- .
+```
+
+#### 다른브랜치의 커밋을 cherry-pick하다 충돌 났을 경우
+```java
+git reset --hard [commit hash]  // main에서 main의 이전 커밋id
+git cherry-pick  [commit hash]  // main에서 local커밋 중 가져올 커밋id
+```
+
+<br><br><br>    
+
+
 
