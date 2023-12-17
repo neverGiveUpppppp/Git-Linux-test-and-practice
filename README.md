@@ -78,11 +78,37 @@ git clean -f -d -x : ignore로 무시된 파일까지 삭제
 git checkout -- .
 ```
 
+<br><br>
+
 #### 다른브랜치의 커밋을 cherry-pick하다 충돌 났을 경우
 ```java
 git reset --hard [commit hash]  // main에서 main의 이전 커밋id
 git cherry-pick  [commit hash]  // main에서 local커밋 중 가져올 커밋id
 ```
+
+<br><br>
+
+#### 마지막 커밋 내역 제외한 이전 커밋 삭제하기
+```java
+git reset --hard HEAD~n    // `n` :** 지우고자 하는 이전 커밋의 수
+```  
+ex)  
+```java
+git reset --hard HEAD~2 // 현재커밋 제외한 이전 2개의 커밋 삭제
+
+// 커밋id가 1-10이 있다고 가정하고 가장 최근 커밋이 10
+// 10을 제외한 6-9까지의 커밋 내역을 삭제할려면
+git reset --hard HEAD~4   // 1-5와 10의 커밋내역이 남음
+```  
+```java
+git reset --hard HEAD~n
+git push origin [브랜치명] --force // reset 이후 강제 푸쉬 해야함
+```
+
+- **`--force`** : 강제로 푸쉬하는 옵션
+
+위 단계를 따르면 원하는 커밋만 남기고 나머지는 삭제할 수 있습니다. 주의해서 사용하시기 바랍니다.
+
 
 <br><br><br>    
 
