@@ -9,6 +9,15 @@ https://positive1.notion.site/VSC-Git-403b37665db34a29a9a9d9ab97f33d92 <br><br><
 
 
 ## git 명령어   
+git stash clear    :  모든 stash 일괄 삭제   
+git stash apply    : stash 적용 & 적용 후, 해당 stash 보관  
+git stash pop      : stash 적용 & 적용 후, 해당 stash 삭제  
+git stash show     : stash의 변경사항 확인  
+git stash show -p  : 변경 사항의 내용을 디테일하게 보기  
+git stash show --patch  
+git stash branch <branch_name>  : 새로운 브랜치를 만들고 스태시를 적용  
+
+
 git cherry-pick [commit hash] : 현재 머물러있는 브랜치에서 해당 commit hash를 체리픽 해오기   
 git cherry-pick -n [커밋 해시]  : 체리픽 해오면서 자동 커밋 금지  
 git cherry-pick --no-commit [커밋 해시]  
