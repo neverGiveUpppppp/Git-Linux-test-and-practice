@@ -9,6 +9,12 @@ https://positive1.notion.site/VSC-Git-403b37665db34a29a9a9d9ab97f33d92 <br><br><
 
 
 ## git 명령어   
+
+git grep [검색어]    
+git grep -i 검색어 // 대소문자 구분(case sensitive) x    
+git grep -w 검색어 // 독립된 한 단어만 검색 ex) everyday에 day검색 : 검색x    
+
+
 git stash clear    :  모든 stash 일괄 삭제   
 git stash apply    : stash 적용 & 적용 후, 해당 stash 보관  
 git stash pop      : stash 적용 & 적용 후, 해당 stash 삭제  
